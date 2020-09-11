@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\derek\\source\\repos\\CSC470-P3\\P3 Code\\P3 Code\\P3 Code.csproj": {}
+    "D:\\School\\CSC 470-SoftwareEngineering\\GroupProjects\\P3\\P3 Code\\P3 Code\\P3 Code.csproj": {}
   },
   "projects": {
-    "C:\\Users\\derek\\source\\repos\\CSC470-P3\\P3 Code\\P3 Code\\P3 Code.csproj": {
+    "D:\\School\\CSC 470-SoftwareEngineering\\GroupProjects\\P3\\P3 Code\\P3 Code\\P3 Code.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\derek\\source\\repos\\CSC470-P3\\P3 Code\\P3 Code\\P3 Code.csproj",
+        "projectUniqueName": "D:\\School\\CSC 470-SoftwareEngineering\\GroupProjects\\P3\\P3 Code\\P3 Code\\P3 Code.csproj",
         "projectName": "P3 Code",
-        "projectPath": "C:\\Users\\derek\\source\\repos\\CSC470-P3\\P3 Code\\P3 Code\\P3 Code.csproj",
-        "packagesPath": "C:\\Users\\derek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\derek\\source\\repos\\CSC470-P3\\P3 Code\\P3 Code\\obj\\",
+        "projectPath": "D:\\School\\CSC 470-SoftwareEngineering\\GroupProjects\\P3\\P3 Code\\P3 Code\\P3 Code.csproj",
+        "packagesPath": "C:\\Users\\sdoug\\.nuget\\packages\\",
+        "outputPath": "D:\\School\\CSC 470-SoftwareEngineering\\GroupProjects\\P3\\P3 Code\\P3 Code\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\derek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sdoug\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

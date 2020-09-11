@@ -11,6 +11,6 @@ namespace P3_Code
         public string FirstName;
         public string LastName;
         public string EmailAddress;
-        public bool IsAuthentciated;
+        public bool IsAuthenticated;
     }
 }
