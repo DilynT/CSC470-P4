@@ -4,7 +4,7 @@ using System.Text;
 
 namespace P3_Code
 {
-    public interface IAppUser
+    public interface IAppUserRepository
     {
         bool Login(string UserName, string Password);
         List<AppUser> GetAll();

@@ -1,0 +1,2 @@
+C:\Users\Dilyn\Source\Repos\CSC470-P3\P3 Code\UnitTestAppUserFakeRepository\obj\Debug\UnitTestFakeEmployeeRepository.csprojAssemblyReference.cache
+C:\Users\Dilyn\Source\Repos\CSC470-P3\P3 Code\UnitTestAppUserFakeRepository\obj\Debug\UnitTestFakeEmployeeRepository.csproj.CoreCompileInputs.cache

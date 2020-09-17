@@ -2,3 +2,16 @@ D:\School\CSC 470-SoftwareEngineering\GroupProjects\P3\P3 Code\P3 Code\obj\Debug
 D:\School\CSC 470-SoftwareEngineering\GroupProjects\P3\P3 Code\P3 Code\obj\Debug\netcoreapp3.1\P3 Code.AssemblyInfoInputs.cache
 D:\School\CSC 470-SoftwareEngineering\GroupProjects\P3\P3 Code\P3 Code\obj\Debug\netcoreapp3.1\P3 Code.AssemblyInfo.cs
 D:\School\CSC 470-SoftwareEngineering\GroupProjects\P3\P3 Code\P3 Code\obj\Debug\netcoreapp3.1\P3 Code.csproj.CoreCompileInputs.cache
+C:\Users\Dilyn\Source\Repos\CSC470-P3\P3 Code\P3 Code\obj\Debug\netcoreapp3.1\P3 Code.csprojAssemblyReference.cache
+C:\Users\Dilyn\Source\Repos\CSC470-P3\P3 Code\P3 Code\obj\Debug\netcoreapp3.1\P3 Code.AssemblyInfoInputs.cache
+C:\Users\Dilyn\Source\Repos\CSC470-P3\P3 Code\P3 Code\obj\Debug\netcoreapp3.1\P3 Code.AssemblyInfo.cs
+C:\Users\Dilyn\Source\Repos\CSC470-P3\P3 Code\P3 Code\obj\Debug\netcoreapp3.1\P3 Code.csproj.CoreCompileInputs.cache
+C:\Users\Dilyn\Source\Repos\CSC470-P3\P3 Code\P3 Code\bin\Debug\netcoreapp3.1\P3 Code.exe
+C:\Users\Dilyn\Source\Repos\CSC470-P3\P3 Code\P3 Code\bin\Debug\netcoreapp3.1\P3 Code.deps.json
+C:\Users\Dilyn\Source\Repos\CSC470-P3\P3 Code\P3 Code\bin\Debug\netcoreapp3.1\P3 Code.runtimeconfig.json
+C:\Users\Dilyn\Source\Repos\CSC470-P3\P3 Code\P3 Code\bin\Debug\netcoreapp3.1\P3 Code.runtimeconfig.dev.json
+C:\Users\Dilyn\Source\Repos\CSC470-P3\P3 Code\P3 Code\bin\Debug\netcoreapp3.1\P3 Code.dll
+C:\Users\Dilyn\Source\Repos\CSC470-P3\P3 Code\P3 Code\bin\Debug\netcoreapp3.1\P3 Code.pdb
+C:\Users\Dilyn\Source\Repos\CSC470-P3\P3 Code\P3 Code\obj\Debug\netcoreapp3.1\P3 Code.dll
+C:\Users\Dilyn\Source\Repos\CSC470-P3\P3 Code\P3 Code\obj\Debug\netcoreapp3.1\P3 Code.pdb
+C:\Users\Dilyn\Source\Repos\CSC470-P3\P3 Code\P3 Code\obj\Debug\netcoreapp3.1\P3 Code.genruntimeconfig.cache

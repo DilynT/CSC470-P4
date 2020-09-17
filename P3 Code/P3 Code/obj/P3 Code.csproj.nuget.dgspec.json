@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\School\\CSC 470-SoftwareEngineering\\GroupProjects\\P3\\P3 Code\\P3 Code\\P3 Code.csproj": {}
+    "C:\\Users\\Dilyn\\Source\\Repos\\CSC470-P3\\P3 Code\\P3 Code\\P3 Code.csproj": {}
   },
   "projects": {
-    "D:\\School\\CSC 470-SoftwareEngineering\\GroupProjects\\P3\\P3 Code\\P3 Code\\P3 Code.csproj": {
+    "C:\\Users\\Dilyn\\Source\\Repos\\CSC470-P3\\P3 Code\\P3 Code\\P3 Code.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\School\\CSC 470-SoftwareEngineering\\GroupProjects\\P3\\P3 Code\\P3 Code\\P3 Code.csproj",
+        "projectUniqueName": "C:\\Users\\Dilyn\\Source\\Repos\\CSC470-P3\\P3 Code\\P3 Code\\P3 Code.csproj",
         "projectName": "P3 Code",
-        "projectPath": "D:\\School\\CSC 470-SoftwareEngineering\\GroupProjects\\P3\\P3 Code\\P3 Code\\P3 Code.csproj",
-        "packagesPath": "C:\\Users\\sdoug\\.nuget\\packages\\",
-        "outputPath": "D:\\School\\CSC 470-SoftwareEngineering\\GroupProjects\\P3\\P3 Code\\P3 Code\\obj\\",
+        "projectPath": "C:\\Users\\Dilyn\\Source\\Repos\\CSC470-P3\\P3 Code\\P3 Code\\P3 Code.csproj",
+        "packagesPath": "C:\\Users\\Dilyn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dilyn\\Source\\Repos\\CSC470-P3\\P3 Code\\P3 Code\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\sdoug\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dilyn\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -52,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

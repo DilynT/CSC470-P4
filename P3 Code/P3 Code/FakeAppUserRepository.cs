@@ -4,7 +4,7 @@ using System.Text;
 
 namespace P3_Code
 {
-    class FakeAppUserRepository : IAppUser
+    class FakeAppUserRepository : IAppUserRepository
     {
         private Dictionary<string, AppUser> AppUsers;
 
@@ -83,6 +83,10 @@ namespace P3_Code
                 }
             }
             return null;
+        }
+        static void Main()
+        {
+
         }
     }
 }
