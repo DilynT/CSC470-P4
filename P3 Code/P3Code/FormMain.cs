@@ -25,8 +25,12 @@ namespace P3Code
             FormLogin login_form = new FormLogin();
             while(!person.IsAuthenticated && login_form.ShowDialog() == DialogResult.OK)
             {
-                login_form.ShowDialog();
                 person.IsAuthenticated = login_form.Authenticated;
+                if (!person.IsAuthenticated)
+                {
+                    login_form.ShowDialog();
+                }
+                
             }
             this.Show();
         }
