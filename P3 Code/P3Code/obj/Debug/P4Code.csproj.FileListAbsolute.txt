@@ -1,0 +1,10 @@
+C:\Users\derek\Source\Repos\CSC470-P32\P3 Code\P3Code\bin\Debug\P3Code.exe.config
+C:\Users\derek\Source\Repos\CSC470-P32\P3 Code\P3Code\bin\Debug\P3Code.exe
+C:\Users\derek\Source\Repos\CSC470-P32\P3 Code\P3Code\bin\Debug\P3Code.pdb
+C:\Users\derek\Source\Repos\CSC470-P32\P3 Code\P3Code\obj\Debug\P3Code.Properties.Resources.resources
+C:\Users\derek\Source\Repos\CSC470-P32\P3 Code\P3Code\obj\Debug\P4Code.csproj.GenerateResource.cache
+C:\Users\derek\Source\Repos\CSC470-P32\P3 Code\P3Code\obj\Debug\P4Code.csproj.CoreCompileInputs.cache
+C:\Users\derek\Source\Repos\CSC470-P32\P3 Code\P3Code\obj\Debug\P3Code.exe
+C:\Users\derek\Source\Repos\CSC470-P32\P3 Code\P3Code\obj\Debug\P3Code.pdb
+C:\Users\derek\Source\Repos\CSC470-P32\P3 Code\P3Code\obj\Debug\P3Code.FormMain.resources
+C:\Users\derek\Source\Repos\CSC470-P32\P3 Code\P3Code\obj\Debug\P3Code.FormLogin.resources
