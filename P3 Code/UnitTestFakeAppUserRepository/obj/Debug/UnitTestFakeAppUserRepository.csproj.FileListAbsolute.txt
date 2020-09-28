@@ -32,3 +32,20 @@ C:\Users\derek\Source\Repos\CSC470-P32\P3 Code\UnitTestFakeAppUserRepository\obj
 C:\Users\derek\Source\Repos\CSC470-P32\P3 Code\UnitTestFakeAppUserRepository\obj\Debug\UnitTestFakeAppUserRepository.csproj.CopyComplete
 C:\Users\derek\Source\Repos\CSC470-P32\P3 Code\UnitTestFakeAppUserRepository\obj\Debug\UnitTestFakeAppUserRepository.dll
 C:\Users\derek\Source\Repos\CSC470-P32\P3 Code\UnitTestFakeAppUserRepository\obj\Debug\UnitTestFakeAppUserRepository.pdb
+D:\School\CSC 470-SoftwareEngineering\GroupProjects\P4\P3 Code\UnitTestFakeAppUserRepository\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\School\CSC 470-SoftwareEngineering\GroupProjects\P4\P3 Code\UnitTestFakeAppUserRepository\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\School\CSC 470-SoftwareEngineering\GroupProjects\P4\P3 Code\UnitTestFakeAppUserRepository\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\School\CSC 470-SoftwareEngineering\GroupProjects\P4\P3 Code\UnitTestFakeAppUserRepository\bin\Debug\UnitTestFakeAppUserRepository.dll
+D:\School\CSC 470-SoftwareEngineering\GroupProjects\P4\P3 Code\UnitTestFakeAppUserRepository\bin\Debug\UnitTestFakeAppUserRepository.pdb
+D:\School\CSC 470-SoftwareEngineering\GroupProjects\P4\P3 Code\UnitTestFakeAppUserRepository\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\School\CSC 470-SoftwareEngineering\GroupProjects\P4\P3 Code\UnitTestFakeAppUserRepository\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\School\CSC 470-SoftwareEngineering\GroupProjects\P4\P3 Code\UnitTestFakeAppUserRepository\bin\Debug\P3Code.exe
+D:\School\CSC 470-SoftwareEngineering\GroupProjects\P4\P3 Code\UnitTestFakeAppUserRepository\bin\Debug\P3Code.pdb
+D:\School\CSC 470-SoftwareEngineering\GroupProjects\P4\P3 Code\UnitTestFakeAppUserRepository\bin\Debug\P3Code.exe.config
+D:\School\CSC 470-SoftwareEngineering\GroupProjects\P4\P3 Code\UnitTestFakeAppUserRepository\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\School\CSC 470-SoftwareEngineering\GroupProjects\P4\P3 Code\UnitTestFakeAppUserRepository\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\School\CSC 470-SoftwareEngineering\GroupProjects\P4\P3 Code\UnitTestFakeAppUserRepository\obj\Debug\UnitTestFakeAppUserRepository.csprojAssemblyReference.cache
+D:\School\CSC 470-SoftwareEngineering\GroupProjects\P4\P3 Code\UnitTestFakeAppUserRepository\obj\Debug\UnitTestFakeAppUserRepository.csproj.CoreCompileInputs.cache
+D:\School\CSC 470-SoftwareEngineering\GroupProjects\P4\P3 Code\UnitTestFakeAppUserRepository\obj\Debug\UnitTestFakeAppUserRepository.csproj.CopyComplete
+D:\School\CSC 470-SoftwareEngineering\GroupProjects\P4\P3 Code\UnitTestFakeAppUserRepository\obj\Debug\UnitTestFakeAppUserRepository.dll
+D:\School\CSC 470-SoftwareEngineering\GroupProjects\P4\P3 Code\UnitTestFakeAppUserRepository\obj\Debug\UnitTestFakeAppUserRepository.pdb

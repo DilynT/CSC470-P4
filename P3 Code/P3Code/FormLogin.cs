@@ -39,6 +39,16 @@ namespace P3Code
                 this.DialogResult = DialogResult.OK;
                 this.Close();
             }
+            else
+            {
+                MessageBox.Show("Incorrect User Name or Password", "Attention", MessageBoxButtons.OK);
+                PasswordtextBox.Text = "";
+            }
+        }
+
+        private void FormLogin_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

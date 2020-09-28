@@ -38,6 +38,7 @@
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(43, 52);
             this.label1.Name = "label1";
@@ -47,6 +48,7 @@
             // 
             // label2
             // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(45, 81);
             this.label2.Name = "label2";
@@ -57,6 +59,7 @@
             // 
             // UserNametextBox
             // 
+            this.UserNametextBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.UserNametextBox.Location = new System.Drawing.Point(107, 49);
             this.UserNametextBox.Name = "UserNametextBox";
             this.UserNametextBox.Size = new System.Drawing.Size(190, 20);
@@ -64,6 +67,7 @@
             // 
             // PasswordtextBox
             // 
+            this.PasswordtextBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.PasswordtextBox.Location = new System.Drawing.Point(107, 81);
             this.PasswordtextBox.Name = "PasswordtextBox";
             this.PasswordtextBox.PasswordChar = '*';
@@ -72,6 +76,7 @@
             // 
             // btnCancel
             // 
+            this.btnCancel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnCancel.Location = new System.Drawing.Point(107, 146);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(76, 27);
@@ -82,6 +87,7 @@
             // 
             // btnLogin
             // 
+            this.btnLogin.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnLogin.Location = new System.Drawing.Point(214, 146);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(83, 27);
@@ -103,6 +109,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FormLogin";
             this.Text = "Login";
+            this.Load += new System.EventHandler(this.FormLogin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
