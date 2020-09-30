@@ -34,5 +34,10 @@ namespace P3Code
             }
             this.Show();
         }
+
+        private void modifyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
