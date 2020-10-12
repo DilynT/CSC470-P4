@@ -20,19 +20,19 @@ namespace P3Code
         private void FormMain_Load(object sender, EventArgs e)
         {
             CenterToScreen();
-            this.Hide();
-            AppUser person = new AppUser();
-            FormLogin login_form = new FormLogin();
-            while(!person.IsAuthenticated && login_form.ShowDialog() == DialogResult.OK)
-            {
-                person.IsAuthenticated = login_form.Authenticated;
-                if (!person.IsAuthenticated)
-                {
-                    login_form.ShowDialog();
-                }
+            //this.Hide();
+            //AppUser person = new AppUser();
+            //FormLogin login_form = new FormLogin();
+            //while(!person.IsAuthenticated && login_form.ShowDialog() == DialogResult.OK)
+            //{
+            //    person.IsAuthenticated = login_form.Authenticated;
+            //    if (!person.IsAuthenticated)
+            //    {
+            //        login_form.ShowDialog();
+            //    }
                 
-            }
-            this.Show();
+            //}
+            //this.Show();
         }
 
         private void modifyToolStripMenuItem_Click(object sender, EventArgs e)

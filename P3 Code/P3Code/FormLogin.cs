@@ -13,22 +13,25 @@ namespace P3Code
     public partial class FormLogin : Form
     {
         public bool Authenticated { get; set; }
+
+        public bool UserAuthed { get; private set; }
         public FormLogin()
         {
             InitializeComponent();
+            CenterToScreen();
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void Label2_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void btnCancel_Click(object sender, EventArgs e)
+        private void BtnCancel_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-        private void btnLogin_Click(object sender, EventArgs e)
+        private void BtnLogin_Click(object sender, EventArgs e)
         {
             FakeAppUserRepository repository = new FakeAppUserRepository();
             string username = UserNametextBox.Text;
@@ -36,7 +39,9 @@ namespace P3Code
             Authenticated = repository.Login(username, password);
             if (Authenticated)
             {
+                repository.setAuthentication(username, Authenticated);
                 this.DialogResult = DialogResult.OK;
+                UserAuthed = true;
                 this.Close();
             }
             else

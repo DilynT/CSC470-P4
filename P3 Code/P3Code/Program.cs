@@ -16,7 +16,13 @@ namespace P3Code
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormMain());
+
+            FormLogin loginCheck = new FormLogin();
+            Application.Run(loginCheck);
+            if (loginCheck.UserAuthed)
+            {
+                Application.Run(new FormMain());
+            }
         }
     }
 }
