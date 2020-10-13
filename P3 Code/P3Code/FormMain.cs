@@ -16,6 +16,8 @@ namespace P3Code
         private int selectedProjID;
         private string selectedProjModify;
         private int selectedProjIDModify;
+        private string selectedProjDelete;
+        private int selectedProjIDDelete;
         public FakePreferencceRepository prefRepo = new FakePreferencceRepository();
         public FormMain(string Proj)
         {
@@ -98,7 +100,35 @@ namespace P3Code
 
         private void removeProjectToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            FormProjSelect formProjSelect = new FormProjSelect();
+            while (formProjSelect.DialogResult != DialogResult.OK && formProjSelect.DialogResult != DialogResult.Cancel)
+            {
+                this.Hide();
+                formProjSelect.ShowDialog();
+            }
+            if (formProjSelect.DialogResult == DialogResult.OK)
+            {
+                selectedProjDelete = formProjSelect.selectedName;
+                selectedProjIDDelete = formProjSelect.Id;
+                setText();
+            }
+            if (selectedProjDelete != selectedProj)
+            {
+                FormRemoveProj formRemoveProj = new FormRemoveProj();
+                formRemoveProj.project_text = selectedProjDelete;
+                formRemoveProj.id_to_modify = selectedProjIDDelete;
+                while (formRemoveProj.DialogResult != DialogResult.OK && formRemoveProj.DialogResult != DialogResult.Cancel)
+                {
+                    formRemoveProj.ShowDialog();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Cannot delete your current session project", "DELETE ERROR", MessageBoxButtons.OK);
+            }
 
+            this.Show();
+ 
         }
 
         private void selectProjectToolStripMenuItem_Click(object sender, EventArgs e)

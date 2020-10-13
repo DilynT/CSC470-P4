@@ -93,3 +93,4 @@ C:\Users\dhmcl\Source\Repos\CSC470-P5\P3 Code\P3Code\obj\Debug\P4Code.csproj.Cor
 C:\Users\dhmcl\Source\Repos\CSC470-P5\P3 Code\P3Code\obj\Debug\P3Code.exe
 C:\Users\dhmcl\Source\Repos\CSC470-P5\P3 Code\P3Code\obj\Debug\P3Code.pdb
 C:\Users\dhmcl\Source\Repos\CSC470-P5\P3 Code\P3Code\obj\Debug\P3Code.FormModifyProj.resources
+C:\Users\dhmcl\Source\Repos\CSC470-P5\P3 Code\P3Code\obj\Debug\P3Code.FormRemoveProj.resources

@@ -99,6 +99,18 @@ namespace P3Code
 
             return NO_ERROR;
         }
+        public string Remove(int id)
+        {
+            foreach (KeyValuePair<string, Project> pair in Projects)
+            {
+                if (pair.Value.Id == id)
+                {
+                    Projects.Remove(pair.Key);
+                    return NO_ERROR;
+                }
+            }
+            return "NO PROJECT FOUND";
+        }
         private int GetNextID(int id)
         {
             return id + 1;
