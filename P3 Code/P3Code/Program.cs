@@ -21,6 +21,8 @@ namespace P3Code
             Application.Run(loginCheck);
             if (loginCheck.UserAuthed)
             {
+                Application.Run(new FormProjSelect());
+                
                 Application.Run(new FormMain());
             }
         }

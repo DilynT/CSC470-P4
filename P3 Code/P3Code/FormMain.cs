@@ -20,6 +20,7 @@ namespace P3Code
         private void FormMain_Load(object sender, EventArgs e)
         {
             CenterToScreen();
+
             //this.Hide();
             //AppUser person = new AppUser();
             //FormLogin login_form = new FormLogin();
@@ -35,7 +36,82 @@ namespace P3Code
             //this.Show();
         }
 
+        private void createProjectToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void modifyProjectToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void removeProjectToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void selectProjectToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dashboardToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void recordToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void modifyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void removeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void reportToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void countByAssigneeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listByAssigneeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void countByArtifactToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listByArtifactToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void countByDateRangeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listByDateRangeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void trendByDateRangeToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }

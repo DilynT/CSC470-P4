@@ -47,6 +47,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppUser.cs" />
+    <Compile Include="FormProjSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProjSelect.Designer.cs">
+      <DependentUpon>FormProjSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IProjectRepository.cs" />
+    <Compile Include="Prefernce.cs" />
+    <Compile Include="Project.cs" />
     <Compile Include="FakeAppUserRepository.cs" />
     <Compile Include="FormLogin.cs">
       <SubType>Form</SubType>
@@ -69,6 +78,9 @@
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormProjSelect.resx">
+      <DependentUpon>FormProjSelect.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -78,6 +90,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="Properties\DataSources\IProjectRepository.datasource" />
+    <None Include="Properties\DataSources\Project.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
