@@ -53,3 +53,15 @@ C:\Users\Dilyn\Downloads\CSC470-P5\P3 Code\P3Code\obj\Debug\P4Code.csproj.CoreCo
 C:\Users\Dilyn\Downloads\CSC470-P5\P3 Code\P3Code\obj\Debug\P3Code.exe
 C:\Users\Dilyn\Downloads\CSC470-P5\P3 Code\P3Code\obj\Debug\P3Code.pdb
 C:\Users\Dilyn\Downloads\CSC470-P5\P3 Code\P3Code\obj\Debug\P3Code.FormProjSelect.resources
+D:\School\CSC 470-SoftwareEngineering\GroupProjects\P5\P3 Code\P3Code\bin\Debug\P3Code.exe.config
+D:\School\CSC 470-SoftwareEngineering\GroupProjects\P5\P3 Code\P3Code\bin\Debug\P3Code.exe
+D:\School\CSC 470-SoftwareEngineering\GroupProjects\P5\P3 Code\P3Code\bin\Debug\P3Code.pdb
+D:\School\CSC 470-SoftwareEngineering\GroupProjects\P5\P3 Code\P3Code\obj\Debug\P4Code.csprojAssemblyReference.cache
+D:\School\CSC 470-SoftwareEngineering\GroupProjects\P5\P3 Code\P3Code\obj\Debug\P3Code.FormLogin.resources
+D:\School\CSC 470-SoftwareEngineering\GroupProjects\P5\P3 Code\P3Code\obj\Debug\P3Code.FormMain.resources
+D:\School\CSC 470-SoftwareEngineering\GroupProjects\P5\P3 Code\P3Code\obj\Debug\P3Code.FormProjSelect.resources
+D:\School\CSC 470-SoftwareEngineering\GroupProjects\P5\P3 Code\P3Code\obj\Debug\P3Code.Properties.Resources.resources
+D:\School\CSC 470-SoftwareEngineering\GroupProjects\P5\P3 Code\P3Code\obj\Debug\P4Code.csproj.GenerateResource.cache
+D:\School\CSC 470-SoftwareEngineering\GroupProjects\P5\P3 Code\P3Code\obj\Debug\P4Code.csproj.CoreCompileInputs.cache
+D:\School\CSC 470-SoftwareEngineering\GroupProjects\P5\P3 Code\P3Code\obj\Debug\P3Code.exe
+D:\School\CSC 470-SoftwareEngineering\GroupProjects\P5\P3 Code\P3Code\obj\Debug\P3Code.pdb

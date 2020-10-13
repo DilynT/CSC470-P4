@@ -12,9 +12,12 @@ namespace P3Code
 {
     public partial class FormMain : Form
     {
-        public FormMain()
+        private string selectedProj;
+        public FormMain(string Proj)
         {
             InitializeComponent();
+            selectedProj = Proj;
+            setText();
         }
 
         private void FormMain_Load(object sender, EventArgs e)
@@ -53,7 +56,15 @@ namespace P3Code
 
         private void selectProjectToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            FormProjSelect formProjSelect = new FormProjSelect();
+            while(formProjSelect.DialogResult != DialogResult.OK)
+            {
+                this.Hide();
+                formProjSelect.ShowDialog();
+            }
+            selectedProj = formProjSelect.selectedName;
+            setText();
+            this.Show();
         }
 
         private void dashboardToolStripMenuItem_Click(object sender, EventArgs e)
@@ -114,6 +125,11 @@ namespace P3Code
         private void trendByDateRangeToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void setText()
+        {
+            this.Text = "Main - " + selectedProj;
         }
     }
 }

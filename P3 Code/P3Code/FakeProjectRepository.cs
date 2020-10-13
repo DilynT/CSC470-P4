@@ -18,19 +18,19 @@ namespace P3Code
                 Projects.Add("testProjectOne", new Project
                 {
                     Id = 1,
-                    Name = "1 - Accounting Project"
+                    Name = "Accounting Project"
                 });
 
                 Projects.Add("testProjectTwo", new Project
                 {
                     Id = 2,
-                    Name = "2 - Big Expensive Project"
+                    Name = "Big Expensive Project"
                 });
 
                 Projects.Add("testProjectThree", new Project
                 {
                     Id = 3,
-                    Name = "3 - Some other Project"
+                    Name = "Some other Project"
                 });
             }
         }

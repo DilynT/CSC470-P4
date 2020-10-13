@@ -30,7 +30,7 @@ namespace P3Code
             projects = newRepo.GetAll();
             foreach (Project project in projects)
             {
-                listBox1.Items.Add(project.Id.ToString() + "-" + project.Name);
+                listBox1.Items.Add(project.Id.ToString() + " - " + project.Name);
             }
             listBox1.SelectedIndex = 0;
         }
