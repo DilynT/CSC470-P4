@@ -19,8 +19,8 @@ namespace P3Code
 
         private void FormMain_Load(object sender, EventArgs e)
         {
+            //Text = "Main - " + FormProjSelect.selectedName;
             CenterToScreen();
-
             //this.Hide();
             //AppUser person = new AppUser();
             //FormLogin login_form = new FormLogin();

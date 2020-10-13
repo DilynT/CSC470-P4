@@ -8,6 +8,7 @@ namespace P3Code
 {
     public interface IPreferenceRepository
     {
-
+        string GetPreference(string userName, string preferenceName);
+        string SetPreference(string userName, string preferenceName, string Value);
     }
 }

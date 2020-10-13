@@ -13,7 +13,7 @@ namespace P3Code
     public partial class FormLogin : Form
     {
         public bool Authenticated { get; set; }
-
+        public string UserN { get; private set; }
         public bool UserAuthed { get; private set; }
         public FormLogin()
         {
@@ -35,6 +35,7 @@ namespace P3Code
         {
             FakeAppUserRepository repository = new FakeAppUserRepository();
             string username = UserNametextBox.Text;
+            UserN = username;
             string password = PasswordtextBox.Text;
             Authenticated = repository.Login(username, password);
             if (Authenticated)

@@ -21,8 +21,9 @@ namespace P3Code
             Application.Run(loginCheck);
             if (loginCheck.UserAuthed)
             {
-                Application.Run(new FormProjSelect());
-                
+                FormProjSelect selectproj = new FormProjSelect();
+                Application.Run(selectproj);
+                FakePreferencceRepository.SetPreference(loginCheck.UserN, selectproj.selectedName, selectproj.Id);
                 Application.Run(new FormMain());
             }
         }
