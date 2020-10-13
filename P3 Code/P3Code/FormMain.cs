@@ -17,6 +17,10 @@ namespace P3Code
         {
             InitializeComponent();
             selectedProj = Proj;
+            if(selectedProj.Equals(""))
+            {
+                Application.Exit();
+            }
             setText();
         }
 
@@ -41,7 +45,18 @@ namespace P3Code
 
         private void createProjectToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            FormCreateProj formCreateProj = new FormCreateProj();
+            while(formCreateProj.DialogResult != DialogResult.OK && formCreateProj.DialogResult != DialogResult.Cancel)
+            {
+                this.Hide();
+                formCreateProj.ShowDialog();
+            }
+            if (formCreateProj.DialogResult == DialogResult.OK)
+            {
+                selectedProj = formCreateProj.newProject;
+                setText();
+            }
+            this.Show();
         }
 
         private void modifyProjectToolStripMenuItem_Click(object sender, EventArgs e)
@@ -57,13 +72,16 @@ namespace P3Code
         private void selectProjectToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FormProjSelect formProjSelect = new FormProjSelect();
-            while(formProjSelect.DialogResult != DialogResult.OK)
+            while(formProjSelect.DialogResult != DialogResult.OK && formProjSelect.DialogResult != DialogResult.Cancel)
             {
                 this.Hide();
                 formProjSelect.ShowDialog();
             }
-            selectedProj = formProjSelect.selectedName;
-            setText();
+            if (formProjSelect.DialogResult == DialogResult.OK)
+            {
+                selectedProj = formProjSelect.selectedName;
+                setText();
+            }
             this.Show();
         }
 

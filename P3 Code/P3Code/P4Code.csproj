@@ -48,6 +48,12 @@
   <ItemGroup>
     <Compile Include="AppUser.cs" />
     <Compile Include="FakePreferencceRepository.cs" />
+    <Compile Include="FormCreateProj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCreateProj.Designer.cs">
+      <DependentUpon>FormCreateProj.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormProjSelect.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +81,9 @@
     <Compile Include="IAppUserRepository.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormCreateProj.resx">
+      <DependentUpon>FormCreateProj.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>

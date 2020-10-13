@@ -10,5 +10,14 @@ namespace P3Code
     {
         public int Id;
         public string Name;
+
+        public Project()
+        { }
+
+        public Project(int id, string name)
+        {
+            Id = id;
+            Name = name;
+        }
     }
 }

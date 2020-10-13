@@ -37,7 +37,8 @@ namespace P3Code
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.DialogResult = DialogResult.Cancel;
+            this.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
