@@ -23,7 +23,9 @@ namespace P3Code
             {
                 FormProjSelect selectproj = new FormProjSelect();
                 Application.Run(selectproj);
-                FakePreferencceRepository.SetPreference(loginCheck.UserN, selectproj.selectedName, selectproj.Id);
+                
+                if (FakePreferencceRepository.GetPreference(loginCheck.UserN, selectproj.selectedName) == null);
+                    FakePreferencceRepository.SetPreference(loginCheck.UserN, selectproj.selectedName, selectproj.Id);
                 Application.Run(new FormMain(selectproj.selectedName));
             }
         }

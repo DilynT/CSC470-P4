@@ -66,3 +66,16 @@ D:\School\CSC 470-SoftwareEngineering\GroupProjects\P5\P3 Code\P3Code\obj\Debug\
 D:\School\CSC 470-SoftwareEngineering\GroupProjects\P5\P3 Code\P3Code\obj\Debug\P3Code.exe
 D:\School\CSC 470-SoftwareEngineering\GroupProjects\P5\P3 Code\P3Code\obj\Debug\P3Code.pdb
 D:\School\CSC 470-SoftwareEngineering\GroupProjects\P5\P3 Code\P3Code\obj\Debug\P3Code.FormCreateProj.resources
+C:\Users\Dilyn\Source\Repos\CSC470-P5\P3 Code\P3Code\bin\Debug\P3Code.exe.config
+C:\Users\Dilyn\Source\Repos\CSC470-P5\P3 Code\P3Code\bin\Debug\P3Code.exe
+C:\Users\Dilyn\Source\Repos\CSC470-P5\P3 Code\P3Code\bin\Debug\P3Code.pdb
+C:\Users\Dilyn\Source\Repos\CSC470-P5\P3 Code\P3Code\obj\Debug\P4Code.csprojAssemblyReference.cache
+C:\Users\Dilyn\Source\Repos\CSC470-P5\P3 Code\P3Code\obj\Debug\P3Code.FormCreateProj.resources
+C:\Users\Dilyn\Source\Repos\CSC470-P5\P3 Code\P3Code\obj\Debug\P3Code.FormLogin.resources
+C:\Users\Dilyn\Source\Repos\CSC470-P5\P3 Code\P3Code\obj\Debug\P3Code.FormMain.resources
+C:\Users\Dilyn\Source\Repos\CSC470-P5\P3 Code\P3Code\obj\Debug\P3Code.FormProjSelect.resources
+C:\Users\Dilyn\Source\Repos\CSC470-P5\P3 Code\P3Code\obj\Debug\P3Code.Properties.Resources.resources
+C:\Users\Dilyn\Source\Repos\CSC470-P5\P3 Code\P3Code\obj\Debug\P4Code.csproj.GenerateResource.cache
+C:\Users\Dilyn\Source\Repos\CSC470-P5\P3 Code\P3Code\obj\Debug\P4Code.csproj.CoreCompileInputs.cache
+C:\Users\Dilyn\Source\Repos\CSC470-P5\P3 Code\P3Code\obj\Debug\P3Code.exe
+C:\Users\Dilyn\Source\Repos\CSC470-P5\P3 Code\P3Code\obj\Debug\P3Code.pdb
