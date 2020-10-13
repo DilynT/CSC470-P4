@@ -6,22 +6,12 @@ using System.Threading.Tasks;
 
 namespace P3Code
 {
-    public class IProjectRepository
+    public interface IProjectRepository
     {
-        private static Dictionary<string, Project> Projects;
-
-        public IProjectRepository()
-        {
-            if (Projects == null)
-            {
-                Projects = new Dictionary<string, Project>();
-                Projects.Add("testProjectOne", new Project
-                {
-                    Id = 1,
-                    Name = "1 - Accounting Project"
-                });
-
-            }
-        }
+        List<Project> GetAll();
+        Project Add();
+        Project Remove(int projectId);
+        Project Modify(int projectId);
+        bool IsDuplicateName(string projectName);
     }
 }

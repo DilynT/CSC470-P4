@@ -53,6 +53,8 @@
     <Compile Include="FormProjSelect.Designer.cs">
       <DependentUpon>FormProjSelect.cs</DependentUpon>
     </Compile>
+    <Compile Include="FakeProjectRepository.cs" />
+    <Compile Include="IPreferenceRepository.cs" />
     <Compile Include="IProjectRepository.cs" />
     <Compile Include="Prefernce.cs" />
     <Compile Include="Project.cs" />
@@ -90,7 +92,18 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="Properties\DataSources\AppUser.datasource" />
+    <None Include="Properties\DataSources\FakeAppUserRepository.datasource" />
+    <None Include="Properties\DataSources\FakeProjectRepository.datasource" />
+    <None Include="Properties\DataSources\FormLogin.datasource" />
+    <None Include="Properties\DataSources\FormMain.datasource" />
+    <None Include="Properties\DataSources\FormProjSelect.datasource" />
+    <None Include="Properties\DataSources\IAppUserRepository.datasource" />
     <None Include="Properties\DataSources\IProjectRepository.datasource" />
+    <None Include="Properties\DataSources\P3Code.Properties.Resources.datasource" />
+    <None Include="Properties\DataSources\P3Code.Properties.Settings.datasource" />
+    <None Include="Properties\DataSources\Prefernce.datasource" />
+    <None Include="Properties\DataSources\Program.datasource" />
     <None Include="Properties\DataSources\Project.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

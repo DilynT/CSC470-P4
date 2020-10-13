@@ -12,9 +12,11 @@ namespace P3Code
 {
     public partial class FormProjSelect : Form
     {
+
         public FormProjSelect()
         {
             InitializeComponent();
+            CenterToScreen();
         }
 
         private void FormProjSelect_Load(object sender, EventArgs e)
@@ -29,12 +31,13 @@ namespace P3Code
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            string SelectedProject = listBox1.SelectedItem.ToString();
+            label1.Text = SelectedProject;
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            int projSelected = Project.Id;
+
         }
     }
 }
