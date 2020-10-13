@@ -27,15 +27,23 @@ namespace P3Code
 
         private void btnRemove_Click(object sender, EventArgs e)
         {
-            string RemResult = projRepo.Remove(id_to_modify);
-            if (RemResult.Equals(FakeProjectRepository.NO_ERROR))
+            const string message = "Are you sure that you would like to delete the project?";
+            const string caption = "Project Deleting";
+            var result = MessageBox.Show(message, caption,
+                             MessageBoxButtons.YesNo,
+                             MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
             {
-                this.DialogResult = DialogResult.OK;
-                this.Close();
-            }
-            else
-            {
-                MessageBox.Show(this, RemResult, "Delete Project Failed", MessageBoxButtons.OK);
+                string RemResult = projRepo.Remove(id_to_modify);
+                if (RemResult.Equals(FakeProjectRepository.NO_ERROR))
+                {
+                    this.DialogResult = DialogResult.OK;
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show(this, RemResult, "Delete Project Failed", MessageBoxButtons.OK);
+                }
             }
         }
 
