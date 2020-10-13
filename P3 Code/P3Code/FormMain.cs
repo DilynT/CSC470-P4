@@ -14,6 +14,9 @@ namespace P3Code
     {
         private string selectedProj;
         private int selectedProjID;
+        private string selectedProjModify;
+        private int selectedProjIDModify;
+        public FakePreferencceRepository prefRepo = new FakePreferencceRepository();
         public FormMain(string Proj)
         {
             InitializeComponent();
@@ -70,17 +73,25 @@ namespace P3Code
             }
             if (formProjSelect.DialogResult == DialogResult.OK)
             {
-                selectedProj = formProjSelect.selectedName;
-                selectedProjID = formProjSelect.Id;
+                selectedProjModify = formProjSelect.selectedName;
+                selectedProjIDModify = formProjSelect.Id;
                 setText();
             }
-            FormModifyProj formModifyProj = new FormModifyProj();
-            formModifyProj.project_text = selectedProj;
-            formModifyProj.id_to_modify = selectedProjID;
-            while (formModifyProj.DialogResult != DialogResult.OK && formModifyProj.DialogResult != DialogResult.Cancel)
+            if (selectedProjModify != selectedProj)
             {
-                formModifyProj.ShowDialog();
+                FormModifyProj formModifyProj = new FormModifyProj();
+                formModifyProj.project_text = selectedProjModify;
+                formModifyProj.id_to_modify = selectedProjIDModify;
+                while (formModifyProj.DialogResult != DialogResult.OK && formModifyProj.DialogResult != DialogResult.Cancel)
+                {
+                    formModifyProj.ShowDialog();
+                }
             }
+            else
+            {
+                MessageBox.Show("Cannot Modify your current session project","MODIFY ERROR", MessageBoxButtons.OK);
+            }
+   
             this.Show();
             
         }

@@ -78,13 +78,25 @@ namespace P3Code
         }
         public string Modify(int id, string project_text)
         {
-            foreach(KeyValuePair<string, Project> pair in Projects)
+            if (project_text.Equals(""))
             {
-                if(pair.Value.Id == id)
+                return EMPTY_PROJECT_NAME_ERROR;
+            }
+            foreach (KeyValuePair<string, Project> pair in Projects)
+            {
+                if (pair.Value.Name.Equals(project_text))
+                {
+                    return DUPLICATE_PROJECT_NAME_ERROR;
+                }
+            }
+            foreach (KeyValuePair<string, Project> pair in Projects)
+            {
+                if (pair.Value.Id == id)
                 {
                     pair.Value.Name = project_text;
                 }
             }
+
             return NO_ERROR;
         }
         private int GetNextID(int id)
