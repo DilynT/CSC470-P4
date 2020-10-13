@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms.VisualStyles;
 
 namespace P3Code
 {
@@ -47,10 +48,6 @@ namespace P3Code
             {
                 projects1.Add(project1.Value);
             }
-            /*            if (users.Count > 0)
-                        {
-                            return users;
-                        }*/
             return projects1;
         }
 
@@ -79,7 +76,17 @@ namespace P3Code
             Projects.Add(testProject, new Project(newID, projectName));
             return NO_ERROR;
         }
-
+        public string Modify(int id, string project_text)
+        {
+            foreach(KeyValuePair<string, Project> pair in Projects)
+            {
+                if(pair.Value.Id == id)
+                {
+                    pair.Value.Name = project_text;
+                }
+            }
+            return NO_ERROR;
+        }
         private int GetNextID(int id)
         {
             return id + 1;

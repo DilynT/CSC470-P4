@@ -41,5 +41,10 @@ namespace P3Code
             this.DialogResult = DialogResult.Cancel;
             this.Close();
         }
+
+        private void FormCreateProj_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

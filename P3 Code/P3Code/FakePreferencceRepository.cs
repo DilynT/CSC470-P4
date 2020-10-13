@@ -29,10 +29,10 @@ namespace P3Code
         }
 
 
-        public static string SetPreference(string userName, string preferenceName, string Value)
+        public static string SetPreference(string userName, string preferenceName, int Value)
         {
             tempHold = new Dictionary<string, string>();
-            tempHold.Add(preferenceName, Value);
+            tempHold.Add(preferenceName, Value.ToString());
             if(Preferences[userName] != null)
                 Preferences.Remove(userName);
             Preferences.Add(userName, tempHold);

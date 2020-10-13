@@ -13,6 +13,7 @@ namespace P3Code
     public partial class FormMain : Form
     {
         private string selectedProj;
+        private int selectedProjID;
         public FormMain(string Proj)
         {
             InitializeComponent();
@@ -61,7 +62,27 @@ namespace P3Code
 
         private void modifyProjectToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            FormProjSelect formProjSelect = new FormProjSelect();
+            while (formProjSelect.DialogResult != DialogResult.OK && formProjSelect.DialogResult != DialogResult.Cancel)
+            {
+                this.Hide();
+                formProjSelect.ShowDialog();
+            }
+            if (formProjSelect.DialogResult == DialogResult.OK)
+            {
+                selectedProj = formProjSelect.selectedName;
+                selectedProjID = formProjSelect.Id;
+                setText();
+            }
+            FormModifyProj formModifyProj = new FormModifyProj();
+            formModifyProj.project_text = selectedProj;
+            formModifyProj.id_to_modify = selectedProjID;
+            while (formModifyProj.DialogResult != DialogResult.OK && formModifyProj.DialogResult != DialogResult.Cancel)
+            {
+                formModifyProj.ShowDialog();
+            }
+            this.Show();
+            
         }
 
         private void removeProjectToolStripMenuItem_Click(object sender, EventArgs e)

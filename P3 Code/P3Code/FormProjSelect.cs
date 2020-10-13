@@ -17,7 +17,7 @@ namespace P3Code
         public List<Project> projects = new List<Project>();
         public bool isSelected = false;
         public string selectedName { get; set; }
-        public string Id { get; set; }
+        public int Id { get; set; }
 
         public FormProjSelect()
         {
@@ -47,7 +47,7 @@ namespace P3Code
             //label1.Text = SelectedProject;
             SelectedProject = projects[listBox1.SelectedIndex];
             selectedName = SelectedProject.Name;
-            Id = SelectedProject.Id.ToString();
+            Id = SelectedProject.Id;
             isSelected = true;
             this.DialogResult = DialogResult.OK;
             this.Close();
